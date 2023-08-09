@@ -11,7 +11,7 @@ To use my software you will simply have to use the ```make``` command and at the
 Now you will simply fill in the required fields so that you get a second window similar to this one:
 
 <p align="center">
-	<img src="imgs/QuickSort.png" height="440">  
+	<img src="imgs/QuickSort.png" height="300">  
 </p>
 
 # Todo
