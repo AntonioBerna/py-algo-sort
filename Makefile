@@ -6,7 +6,10 @@ PYFLAGS=--onefile -n $(TARGET) -p $(VIRTUAL_ENV)
 all:
 	$(PYC) $(PYFLAGS) $(SRCS)
 
-.PHONY: clean
+.PHONY: clean run
 
 clean:
 	$(RM) -r dist/ build/ $(TARGET).spec
+
+run:
+	./dist/$(TARGET)
